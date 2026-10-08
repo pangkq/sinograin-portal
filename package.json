@@ -1,0 +1,7 @@
+{
+  "name": "sinograin-portal",
+  "private": true,
+  "scripts": {
+    "dev": "node dev-server.js"
+  }
+}

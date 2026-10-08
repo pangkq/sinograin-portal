@@ -1,0 +1,38 @@
+* {
+    font-family: "微软雅黑";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.home-content {
+  width: 100%;
+  height: 100vh;
+  background: url('../img/home.jpg') no-repeat center center;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.default-content02 {
+  width: 100%;
+  height: 100vh;
+  background: url('../img/default_bg01.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 200px;
+}
+
+.default-left, .default-right {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
